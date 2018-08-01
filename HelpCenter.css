@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, Helvetica, sans-serif
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+
+}
+
+.dashboard1 {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.dashboard2 {
+    background-color: #edf2f7;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.csimetric {
+    padding-right: 30px;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#imgmetric {
+    float:right;
+    width:30%;
+    padding-left: 30px;
+}
+
+.colorscale {
+    font-size: 20px;
+    
+}
+
+
+.dashboard3 {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.dashboard4 {
+    background-color: #f0f2f4;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.dashboard5 {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.dashboard6 {
+    background-color: #ffede6;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dbnav {
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.dbnav li:not(:first-child):before {
+    content: " | ";
+}
+
+.dbnav h1 {
+    padding-bottom: 0px;
+    font-size: 30px;
+    
+}
+
+.dbnav a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.dbnav li {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.dbnav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+
+.button_1 {
+    height: 38px;
+    background: royalblue;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+header {
+    background: #2c333a;
+    color: royalblue;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    min-height: 70px;
+    border-bottom: royalblue 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0px;
+    font-size: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight {
+    color: white;
+    font-weight: bold;
+}
+
+header .current a {
+    color: royalblue;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ffa333;
+    font-weight: bold;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 65%;
+    
+}
+
+.leftcolumn h2{
+    color: white;
+}
+
+.leftcolumn .pie {
+    float: right;
+    
+}
+
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 30%;
+    background-color: #424d57;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.rightcolumn li {
+    padding-left: 30px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #424d57;
+    text-align: center;
+    
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+

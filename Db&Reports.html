@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/gif/png" href="Images/Globe.png">
+<title>GlobalWorx Help Center</title>
+<link rel="stylesheet" type="text/css" href="HelpCenter.css">
+</head>
+
+
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">GlobalWorx</span> Help Center</h1>
+			</div>
+	
+			<nav>
+				<ul>
+					<li><a href="Index.html">Getting Started</a></li>
+					<li class="current"><a href="Db&Reports.html">Dashboards</a></li>
+					<li><a href="HowTo.html">How To's</a></li>
+					<li><a href="PremiumFeatures.html">Premium Features</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="dbnav">
+		<div class="container">
+			<h1>Dashboards & Reports</h1>
+			<ul>
+				<li><a href="#OOS">Out of Stocks</a></li>
+				<li><a href="#CSI">Critical Service Issues</a></li>
+				<li><a href="#AVN">Automated Vendor Notifications</a></li>
+				<li><a href="#Scorecard">Scorecard</a></li>
+				<li><a href="#MDT">Multi-Day Trend</a></li>
+				<li><a href="#CT">Consecutive-Day Trend</a></li>
+			</ul>
+		</div>
+	</section>
+	
+	<section class="dashboard1">
+		<div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:45px;"><a id="OOS"></a>(OOS) Out of Stock Dashboard</h1>
+					<h2 style="font-size:30px; color:#1f49c7;">The costly ramifications of out of stocks continue to plague the industry.</h2>
+					<div class="pie">
+					<img src="Images/piechart.png" alt="GW Logo" style="max-width:90%;height:auto;">
+					</div>
+					<p style="font-size:25px;">According to the FMI/GMA Trading Partner Alliance Report:</p>
+					<ul style="font-size:20px;">
+						<li>The OOS rate on regularly priced items averages <b>8%</b>.</li></br>
+						<li>The OOS rate on promoted items averages between <b>13%</b> and <b>15%</b>.</li></br>
+						<li>The OOS problem costs the grocery industry approximately <b>4%</b> in lost sales every year.</li>
+					</ul>
+					</br>
+					<h2 style="font-size:30px; color:#1f49c7;">GlobalWorx now gives you the visibility you never had before with real-time out of stock transparency.</h2>
+					<p style="font-size:20px;">OOSAlert provides the tools you need in order to solve the industry-wide out of stock problem.
+					This advanced notification system helps you and your trading partners locate, notify, and correct costly out-of-stocks
+					and other merchandising issues in hours instead of days.</p>
+					<img src="Images/Trendchart.png" alt="GW Logo" style="max-width:100%;height:auto;">
+			
+					
+					<p style="font-size:30px;">Learn more about how you can use <a href="HowTo.html#SearchFilters">search filters</a> to drill down on your out of stock data.</p>
+					
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Aggregation filter</u></b></h3>
+						<p style="font-size:15px;">Default is Daily (can be customized). Works in conjunction with the Daterange filter to populate the Trendline chart. 
+						For example, select "Weekly" aggregation with "30 days" for daterange filter and the Trendline chart will display the weeks of the month for 
+						that daterange.</p>
+
+    					<h3><b><u>Daterange filter</u></b></h3>
+						<p style="font-size:15px;">Default is 7 days (can be customized). User can select from pre-populated date ranges, or enter a custom from/to date.</p>
+
+						<h3><b><u>Vendor filter</u></b></h3>
+						<p style="font-size:15px;">Suppliers with multiple Distributors will have a Vendor filter. All vendors are displayed by default (can be customized). 
+						User has the ability to select 1 or more vendors from this filter.</p>
+			
+						<h3><b><u>Region filter</u></b></h3>
+						<p style="font-size:15px;">Default is all Regions (can be customzed). Filters the entire dashboard by the selected Region. User has the ability to select 
+						1 or more regions from this filter.</p>
+			
+						<h3><b><u>District filter</u></b></h3>
+						<p style="font-size:15px;">Default is all districts (can be customized). Filter is populated when 1 or more Regions are selected from the Region filter. 
+						User has the ability to select 1 or more districts from this filter. Filters the entire dashboard by the selected district.</p>
+	
+						<h3><b><u>Store filter</u></b></h3>
+						<p style="font-size:15px;">Default is all stores (can be cuztomized). User has the ability to select 1 or more stores from this filter. TO DO: I want this 
+						filter to populate based on region(s) selected. Currently it lists all stores.</p>
+						
+    				</div>	
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    
+    <section class="dashboard2">
+    <div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:45px;"><a id="CSI"></a>(CSI) Critical Service Issue Dashboard</h1>
+					<h2 style="font-size:45px; color:royalblue;">Detection. Action. Results.</h2>
+					
+
+					<img src="Images/csitracking.png" alt="CSI background" style="max-width:100%; height:auto;">
+					
+					<h3 style="font-size:30px;">Metric Definitions</h3>
+					
+					<div class="csimetric">
+						<p style="font-size:25px;color:#1f49c7;"><b>CSI Past Due:</b></p>
+						<p style="font-size:20px;">The metric is tracking the time between when the supplier states they expect to resolve the service issue and when 
+						they press the complete button. If the supplier does not complete the service issue in the time frame they stated, 
+						then it is marked as past due.</p>
+					
+						<div id="imgmetric">
+						<img src="Images/pastdue.png" alt="Metric" style="max-width:100%;height:auto;">
+						</div>
+					
+						<div class="colorscale">
+							<p><b>CSI Color Scale:</b></p>
+							<p><b style="color:Green">Green:</b> Less than or equal to 5%</p>
+							<p><b style="color:#DAA520">Yellow:</b> Above 5% and less than 15%</p>
+							<p><b style="color:Red">Red:</b> Above 15%</p>
+						</div>				
+					</div>
+					
+					
+					<div class="csimetric">
+						<p style="font-size:25px; color:#1f49c7;"><b>CSI Unresponsive:</b></p>
+						<p style="font-size:20px;">All service issues that went through all protocol contacts for that supplier at that store and did not provide a response 
+						to when it will be resolved.</p>
+						
+						<div id="imgmetric">
+						<img src="Images/unresponsive.png" alt="GW Logo" style="max-width:100%;height:auto;">
+						</div>
+						
+						<div class="colorscale">
+							<p><b>CSI Color Scale:</b></p>
+							<p><b style="color:Green">Green:</b> Less than or equal to 5%</p>
+							<p><b style="color:#DAA520">Yellow:</b> Above 5% and less than 15%</p>
+							<p><b style="color:Red">Red:</b> Above 15%</p>
+						</div>		
+					</div>	
+
+
+					<div class="csimetric">
+						
+						<p style="font-size:25px;color:#1f49c7;"><b>CSI Accepted:</b></br></p>
+						<p style="font-size:20px;">The aggregated total amount of service issues that were accepted by the supplier. Service issues can be accepted at any time 
+						whether it has elapsed the escalation time period of 1 hour and 30 minutes.</p>
+						
+						<div id="imgmetric">
+						<img src="Images/accepted.png" alt="GW Logo" style="max-width:100%;height:auto;">
+						</div>
+						
+						<div class="colorscale">
+							<p><b>CSI Color Scale:</b></p>
+							<p><b style="color:Green">Green:</b> Greater than or equal to 95%</p>
+							<p><b style="color:#DAA520">Yellow:</b> Above 85% and less than 95%</p>
+							<p><b style="color:Red">Red:</b> Below 85%</p>
+						</div>	
+
+					</div>	
+
+
+					<div class="csimetric">
+						
+						<p style="font-size:25px;color:#1f49c7;"><b>CSI Outstanding:</b></br></p>
+						<p style="font-size:20px;">The aggregated total of all service issues that have not been verified. This metric is the total number of service issues that have 
+						not been verified compared to the total. </p>
+						
+						<div id="imgmetric">
+						<img src="Images/outstanding.png" alt="GW Logo" style="width:100%;height:auto;">
+						</div>
+						
+						<div class="colorscale">
+							<p><b>CSI Color Scale:</b></p>
+							<p><b style="color:Green">Green:</b> Less than or equal to 5%</p>
+							<p><b style="color:#DAA520">Yellow:</b> Above 5% and less than 15%</p>
+							<p><b style="color:Red">Red:</b> Above 15%</p>
+						</div>	
+
+					</div>	
+
+					<div class="csimetric">
+						
+						<p style="font-size:25px;color:#1f49c7;"><b>CSI Unsatisfactory:</b></br></p>
+						<p style="font-size:20px;">The aggregated total of all service issues that were verified and marked as being unsatisfactory. The total amount as seen in the 
+						dashboard is determined from the total amount of service issues that were verified. This means it will only show the total for verified 
+						service issues and not total amount submitted.</p>
+
+						<div id="imgmetric">
+						<img src="Images/unsatisfactory.png" alt="GW Logo" style="width:100%;height:auto;">	
+						</div>
+
+						<div class="colorscale">
+							<p><b>CSI Color Scale:</b></p>
+							<p><b style="color:Green">Green:</b> Less than or equal to 5%</p>
+							<p><b style="color:#DAA520">Yellow:</b> Above 5% and less than 15%</p>
+							<p><b style="color:Red">Red:</b> Above 15%</p>
+						</div>	
+
+					</div>
+					
+				<div style="font-size: 25px;p">	
+					<h1>Reliable detection and real-time communications means speed-to-shelf and time is money....</h1>
+					<li>Reducing out of stocks</li>
+					<li>Increasing sales 2-3%</li>
+					<li>Eliminating shopper defection</li>
+				</div>
+					</br>
+					<img src="Images/csitrendline.png" alt="CSI Trendline" style="max-width:100%; height:auto;">
+					
+					<p style="font-size:30px;">Learn more about how you can use the <a href="HowTo.html#LegendOptions">legend</a> to analyze critical service issues.</p>
+						
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Aggregation filter</u></b></h3>
+						<p style="font-size:15px;">Default is Daily (can be customized). Works in conjunction with the Daterange filter to populate the Trendline chart. 
+						For example, select "Weekly" aggregation with "30 days" for daterange filter and the Trendline chart will display the weeks of the month for 
+						that daterange.</p>
+
+    					<h3><b><u>Daterange filter</u></b></h3>
+						<p style="font-size:15px;">Default is 7 days (can be customized). User can select from pre-populated date ranges, or enter a custom from/to date.</p>
+
+						<h3><b><u>Vendor filter</u></b></h3>
+						<p style="font-size:15px;">Suppliers with multiple Distributors will have a Vendor filter. All vendors are displayed by default (can be customized). 
+						User has the ability to select 1 or more vendors from this filter.</p>
+			
+						<h3><b><u>Region filter</u></b></h3>
+						<p style="font-size:15px;">Default is all Regions (can be customzed). Filters the entire dashboard by the selected Region. User has the ability to select 
+						1 or more regions from this filter.</p>
+			
+						<h3><b><u>District filter</u></b></h3>
+						<p style="font-size:15px;">Default is all districts (can be customized). Filter is populated when 1 or more Regions are selected from the Region filter. 
+						User has the ability to select 1 or more districts from this filter. Filters the entire dashboard by the selected district.</p>
+	
+						<h3><b><u>Store filter</u></b></h3>
+						<p style="font-size:15px;">Default is all stores (can be cuztomized). User has the ability to select 1 or more stores from this filter. TO DO: I want this 
+						filter to populate based on region(s) selected. Currently it lists all stores.</p>
+						
+    				</div>	
+    				
+    				
+      
+    		</div>
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    <section class="dashboard3">
+    <div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:45px;"><a id="AVN"></a>(AVN) Automated Vendor Notification Dashboard</h1>
+					
+					<img src="Images/avnprocess.png" alt="GW Logo" style="max-width:100%;height:auto;">
+					
+					<h2 style="font-size:30px; color:royalblue;">Simplifying OOS communication from retail stores directly to the supplier in real time.</h2>
+			
+					<p style="font-size:20px;">As a result, your shoppers are more satisfied.
+					You recapture sales that would otherwise be lost. Multi-day out of stocks become a thing of the past.
+					You grow sales and enhance shopper loyalty.</p>
+					</br>
+	
+					<img src="Images/processflow.png" alt="GW Logo" style="max-width:100%;height:auto;">
+					
+					<p style="font-size:30px;">Learn more about how you can use the <a href="HowTo.html#AggregationFilter">aggregation filter</a> to view the total amount of automated 
+					vendor notifications that were disseminated to your company daily, weekly, monthly, and more.</p>
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Aggregation filter</u></b></h3>
+						<p style="font-size:15px;">Default is Daily (can be customized). Works in conjunction with the Daterange filter to populate the Trendline chart. 
+						For example, select "Weekly" aggregation with "30 days" for daterange filter and the Trendline chart will display the weeks of the month for 
+						that daterange.</p>
+
+    					<h3><b><u>Daterange filter</u></b></h3>
+						<p style="font-size:15px;">Default is 7 days (can be customized). User can select from pre-populated date ranges, or enter a custom from/to date.</p>
+
+						<h3><b><u>Contact filter</u></b></h3>
+						<p style="font-size:15px;">Default is all contacts (can be customized). Filters the entire dashboard by the selected contact. User has the ability to 
+						select 1 or more contacts from this filter. </p>
+			
+						
+    				</div>	
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    
+    <section class="dashboard4">
+    <div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:45px;"><a id="Scorecard"></a>Scorecard Report</h1>
+					<h2 style="font-size:30px; color: royalblue;">The costly ramifications of out of stocks continue to plague the industry.</h2>
+				
+					<img src="Images/kpi.png" alt="KPI" style="max-width: 80%;height:auto;">
+				
+				
+				<div style="font-size: 25px;p">
+					<p>Scorecards can be created for any stakeholder including:</p>
+					<li>Manufacturers/Distributors</li>
+					<li>Category Management</li>
+					<li>Regional Management</li>
+					<li>District Management</li>
+					<li>Store Management</li>
+				</div>
+					
+					<p style="font-size:30px;">Learn more about how you can <a href="HowTo.html#DownloadChartImage">download scorecard</a> so you can 
+					supply information to all stakeholders</p>
+					
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Scorecard period filter</u></b></h3>
+						<p style="font-size:15px;">User has the ability to select from 30 days up to 1 year. If the user selects 30 days, then the score will be calculated based on performance of the last 30 days to the prior 30 days. 
+						An example of the 30 day calculation would be comparing September against August.</p>
+
+    				</div>	
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    
+    <section class="dashboard5">
+    <div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:45px;"><a id="MDT"></a>Multi-Day Trend Dashboard</h1>
+					<h2 style="font-size:30px; color: royalblue;">The costly ramifications of out of stocks continue to plague the industry.</h2>
+					<img src="Images/multidayfilter.png" alt="GW Logo" style="max-width:100%;height:auto;">
+					<img src="Images/multidaychart.png" alt="GW Logo" style="max-width:100%;height:auto;">
+					<img src="Images/multidayooschart.png" alt="GW Logo" style="max-width:100%;height:auto;">
+					
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Daterange filter</u></b></h3>
+						<p style="font-size:15px;">Default is 7 days (can be customized). User can select from pre-populated date ranges, or enter a custom from/to date.</p>
+
+						<h3><b><u>Vendor filter</u></b></h3>
+						<p style="font-size:15px;">Suppliers with multiple Distributors will have a Vendor filter. All vendors are displayed by default (can be customized). 
+						User has the ability to select 1 or more vendors from this filter.</p>
+			
+						<h3><b><u>Region filter</u></b></h3>
+						<p style="font-size:15px;">Default is all Regions (can be customzed). Filters the entire dashboard by the selected Region. User has the ability to select 
+						1 or more regions from this filter.</p>
+			
+						<h3><b><u>District filter</u></b></h3>
+						<p style="font-size:15px;">Default is all districts (can be customized). Filter is populated when 1 or more Regions are selected from the Region filter. 
+						User has the ability to select 1 or more districts from this filter. Filters the entire dashboard by the selected district.</p>
+	
+						<h3><b><u>Store filter</u></b></h3>
+						<p style="font-size:15px;">Default is all stores (can be cuztomized). User has the ability to select 1 or more stores from this filter. TO DO: I want this 
+						filter to populate based on region(s) selected. Currently it lists all stores.</p>
+						
+						<h3><b><u>Item filter</u></b></h3>
+						<p style="font-size:15px;">Defailt is all items (can be customized). Filters the entire dashboard by the selected items. User has the ability to select 1 
+						or more items from this filter. </p>
+			
+						<h3><b><u>Multi-day filter</u></b></h3>
+						<p style="font-size:15px;">Default is all days (can be cuztomized). User has the ability to select 1 choice from the options listed. Filters the entire dashboard 
+						by the selected day. For example, if user selects > 2 days option, items that have been out of stock 3 or more days for the selected daterange will be displayed. </p>
+	
+						
+						
+    				</div>	
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    
+    <section class="dashboard6">
+    <div class="container">
+			<div class="row">
+				<div class="leftcolumn">
+					
+					<h1 style="font-size:40px;"><a id="CT"></a>Consecutive-Day Trend Dashboard</h1>
+					<h2 style="font-size:30px; color: royalblue;">The costly ramifications of out of stocks continue to plague the industry.</h2>
+					<div class="pie">
+					<img src="Images/piechart.png" alt="GW Logo" style="max-width:90%;height:auto;">
+					</div>
+					<p style="font-size:25px;">According to the FMI/GMA Trading Partner Alliance Report:</p>
+					<ul style="font-size:20px;">
+						<li>The OOS rate on regularly priced items averages <b>8%</b>.</li></br>
+						<li>The OOS rate on promoted items averages between <b>13%</b> and <b>15%</b>.</li></br>
+						<li>The OOS problem costs the grocery industry approximately <b>4%</b> in lost sales every year.</li>
+					</ul>
+					</br>
+					<h2 style="font-size:30px; color:royalblue;">GlobalWorx now gives you the visibility you never had before with real-time out of stock transparency.</h2>
+					<img src="Images/Trendchart.png" alt="GW Logo" style="max-width:70%;height:auto;">
+			
+					<h2 style="font-size:30px; color:royalblue;">Simplifying OOS communication from retail stores directly to the supplier in real time.</h2>
+			
+					<p style="font-size:20px;">GlobalWorx provides the tools you need in order to solve the industry-wide out of stock problem.
+					This advanced notification system helps you and your trading partners locate, notify, and correct costly out-of-stocks
+					and other merchandising issues in hours instead of days.</p>
+			
+					<p style="font-size:20px;">As a result, your shoppers are more satisfied.
+					You recapture sales that would otherwise be lost. Multi-day out of stocks become a thing of the past.
+					You grow sales and enhance shopper loyalty.</p>
+					</br>
+	
+					<img src="Images/processflow.png" alt="GW Logo" style="max-width:100%;height:auto;">
+				</div>
+	
+				<div class="rightcolumn">
+					<div class="card">
+      					<h2>Filters:</h2>
+						
+						<h3><b><u>Aggregation filter</u></b></h3>
+						<p style="font-size:15px;">Default is Daily (can be customized). Works in conjunction with the Daterange filter to populate the Trendline chart. 
+						For example, select "Weekly" aggregation with "30 days" for daterange filter and the Trendline chart will display the weeks of the month for 
+						that daterange.</p>
+
+    					<h3><b><u>Daterange filter</u></b></h3>
+						<p style="font-size:15px;">Default is 7 days (can be customized). User can select from pre-populated date ranges, or enter a custom from/to date.</p>
+
+						<h3><b><u>Vendor filter</u></b></h3>
+						<p style="font-size:15px;">Suppliers with multiple Distributors will have a Vendor filter. All vendors are displayed by default (can be customized). 
+						User has the ability to select 1 or more vendors from this filter.</p>
+			
+						<h3><b><u>Region filter</u></b></h3>
+						<p style="font-size:15px;">Default is all Regions (can be customzed). Filters the entire dashboard by the selected Region. User has the ability to select 
+						1 or more regions from this filter.</p>
+			
+						<h3><b><u>District filter</u></b></h3>
+						<p style="font-size:15px;">Default is all districts (can be customized). Filter is populated when 1 or more Regions are selected from the Region filter. 
+						User has the ability to select 1 or more districts from this filter. Filters the entire dashboard by the selected district.</p>
+	
+						<h3><b><u>Store filter</u></b></h3>
+						<p style="font-size:15px;">Default is all stores (can be cuztomized). User has the ability to select 1 or more stores from this filter. TO DO: I want this 
+						filter to populate based on region(s) selected. Currently it lists all stores.</p>
+						
+    				</div>	
+			
+  				</div>
+  			</div>
+		</div>
+    </section>
+    
+    <div class="footer">
+  		<p>GlobalWorx Help Center, Copyright &copy; 2018</p>
+	</div>
+
+	
+	
+</body>
+
+
+</html>
